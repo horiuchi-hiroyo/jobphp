@@ -1,0 +1,27 @@
+index.html
+	str1.php
+	　(文字列操作)
+		・trim()
+		・strlen()
+	str2.php
+	　(文字列比較／変更)
+		・strcasecmp()
+		・strtolower()
+		・strtoupper()
+		・ucwords()
+		・substr()
+		・str_replace()
+	str3.php
+	　(表示形式)
+		・printf()
+
+==============
+index.php
+	一括
+
+==============
+02practice.zip
+	配布用
+
+==============
+2023.4.8
