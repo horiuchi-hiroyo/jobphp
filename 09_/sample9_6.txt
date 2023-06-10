@@ -1,0 +1,3 @@
+yamada@yahoo.com|山田
+tanaka@yahoo.com|田中
+sato@yahoo.com|佐藤

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>DirectoryTraversal</title>
+</head>
+<body>
+    <h2>DirectoryTraversal<br>（ディレクトリトラバーサル）の危険性</h2>
+
+    <table>
+        <thead>
+            <td>ファイル名</td>
+            <td>公開／非公開</td>
+        </thead>
+        <tr>
+            <td>index.html</td>
+            <td>公開</td>
+        </tr>
+        <tr>
+            <td>menu.html</td>
+            <td>公開</td>
+        </tr>
+        <tr>
+            <td>filePutContents.php</td>
+            <td>公開</td>
+        </tr>
+        <tr>
+            <td>password.txt</td>
+            <td>非公開</td>
+        </tr>
+        <tr>
+            <td>config.ini</td>
+            <td>非公開</td>
+        </tr>
+    </table>
+    <hr>
+    <form action="filePutContents.php" method="post">
+        <p>
+            <label for="filename">ファイル名：</label>
+            <input type="text" name="filename">
+        </p>
+        <p>
+            <input type="submit" value="ファイルダウンロード">
+        </p>
+    </form>
+</body>
+</html>
