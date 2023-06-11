@@ -1,0 +1,9 @@
+Setting environment for using XAMPP for Windows.
+user@WINDOWS-BBG8U84 c:\xampp
+# phpunit --v
+PHPUnit 9.6.8 by Sebastian Bergmann and contributors.
+
+Option "--v" is ambiguous
+
+user@WINDOWS-BBG8U84 c:\xampp
+#

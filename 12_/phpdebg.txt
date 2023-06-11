@@ -1,0 +1,55 @@
+
+Setting environment for using XAMPP for Windows.
+user@WINDOWS-BBG8U84 c:\xampp
+# phpdbg -e C:\xampp\htdocs\php_202304\12_\broken.php
+[Welcome to phpdbg, the interactive PHP debugger, v8.1.6]
+To get help using phpdbg type "help" and press enter
+[Please report bugs to <http://bugs.php.net/report.php>]
+[Successful compilation of C:\xampp\htdocs\php_202304\12_\broken.php]
+prompt> break 8
+[Breakpoint #0 added at C:\xampp\htdocs\php_202304\12_\broken.php:8]
+prompt> run
+[Breakpoint #0 at C:\xampp\htdocs\php_202304\12_\broken.php:8, hits: 1]
+>00008:         $total_price = $price * $tax_rate;
+ 00009:     }
+ 00010:
+prompt> watch $total_price
+[Added watchpoint #0 for $total_price]
+prompt> break del 0
+[Deleted breakpoint #0]
+prompt> continue
+[Breaking on watchpoint $total_price]
+Old value: 0
+New value: 11
+>00007:     foreach($prices as $price){
+ 00008:         $total_price = $price * $tax_rate;
+ 00009:     }
+prompt> continue
+[Breaking on watchpoint $total_price]
+Old value: 11
+New value: 55
+>00007:     foreach($prices as $price){
+ 00008:         $total_price = $price * $tax_rate;
+ 00009:     }
+prompt> continue
+[Breaking on watchpoint $total_price]
+Old value: 55
+New value: 110
+>00007:     foreach($prices as $price){
+ 00008:         $total_price = $price * $tax_rate;
+ 00009:     }
+prompt> continue
+[Breaking on watchpoint $total_price]
+Old value: 110
+New value: 165
+>00007:     foreach($prices as $price){
+ 00008:         $total_price = $price * $tax_rate;
+ 00009:     }
+prompt> continue
+蜷郁ｨ磯≡鬘阪・165蜀・〒縺吶
+[$total_price has been removed, removing watchpoint]
+[Script ended normally]
+prompt> quit
+
+user@WINDOWS-BBG8U84 c:\xampp
+#

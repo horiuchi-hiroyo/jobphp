@@ -1,0 +1,54 @@
+１）XAMPP shellより、作業
+２）cd
+３）ライブラリインストールコマンド
+
+==========
+Setting environment for using XAMPP for Windows.
+user@WINDOWS-BBG8U84 c:\xampp
+# cd C:\xampp\htdocs\php_202304\16_
+
+user@WINDOWS-BBG8U84 C:\xampp\htdocs\php_202304\16_
+# composer require swiftmailer/swiftmailer
+Info from https://repo.packagist.org: #StandWithUkraine
+./composer.json has been created
+Running composer update swiftmailer/swiftmailer
+Loading composer repositories with package information
+Updating dependencies
+Lock file operations: 9 installs, 0 updates, 0 removals
+  - Locking doctrine/deprecations (v1.1.1)
+  - Locking doctrine/lexer (2.1.0)
+  - Locking egulias/email-validator (3.2.6)
+  - Locking swiftmailer/swiftmailer (v6.3.0)
+  - Locking symfony/polyfill-iconv (v1.27.0)
+  - Locking symfony/polyfill-intl-idn (v1.27.0)
+  - Locking symfony/polyfill-intl-normalizer (v1.27.0)
+  - Locking symfony/polyfill-mbstring (v1.27.0)
+  - Locking symfony/polyfill-php72 (v1.27.0)
+Writing lock file
+Installing dependencies from lock file (including require-dev)
+Package operations: 9 installs, 0 updates, 0 removals
+  - Downloading doctrine/deprecations (v1.1.1)
+  - Downloading doctrine/lexer (2.1.0)
+  - Downloading symfony/polyfill-mbstring (v1.27.0)
+  - Downloading symfony/polyfill-php72 (v1.27.0)
+  - Downloading symfony/polyfill-intl-normalizer (v1.27.0)
+  - Downloading symfony/polyfill-intl-idn (v1.27.0)
+  - Downloading symfony/polyfill-iconv (v1.27.0)
+  - Downloading egulias/email-validator (3.2.6)
+  - Downloading swiftmailer/swiftmailer (v6.3.0)
+  - Installing doctrine/deprecations (v1.1.1): Extracting archive
+  - Installing doctrine/lexer (2.1.0): Extracting archive
+  - Installing symfony/polyfill-mbstring (v1.27.0): Extracting archive
+  - Installing symfony/polyfill-php72 (v1.27.0): Extracting archive
+  - Installing symfony/polyfill-intl-normalizer (v1.27.0): Extracting archive
+  - Installing symfony/polyfill-intl-idn (v1.27.0): Extracting archive
+  - Installing symfony/polyfill-iconv (v1.27.0): Extracting archive
+  - Installing egulias/email-validator (3.2.6): Extracting archive
+  - Installing swiftmailer/swiftmailer (v6.3.0): Extracting archive
+5 package suggestions were added by new dependencies, use `composer suggest` to see details.
+Package swiftmailer/swiftmailer is abandoned, you should avoid using it. Use symfony/mailer instead.
+Generating autoload files
+8 packages you are using are looking for funding.
+Use the `composer fund` command to find out more!
+No security vulnerability advisories found
+Using version ^6.3 for swiftmailer/swiftmailer

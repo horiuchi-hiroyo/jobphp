@@ -1,0 +1,20 @@
+user@WINDOWS-BBG8U84 c:\xampp
+# phpunit --colors htdocs\php_202304\13_
+PHPUnit 9.6.8 by Sebastian Bergmann and contributors.
+
+.F                                                                  2 / 2 (100%)
+
+Time: 00:00.003, Memory: 24.00 MB
+
+There was 1 failure:
+
+1) CalculationTest::testmultiple
+Failed asserting that -7 matches expected 10.
+
+C:\xampp\htdocs\php_202304\13_\CalculationTest.php:46
+
+FAILURES!
+Tests: 2, Assertions: 4, Failures: 1.
+
+user@WINDOWS-BBG8U84 c:\xampp
+#

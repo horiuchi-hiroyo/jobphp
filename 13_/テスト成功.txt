@@ -1,0 +1,12 @@
+user@WINDOWS-BBG8U84 c:\xampp
+# phpunit --colors htdocs\php_202304\13_
+PHPUnit 9.6.8 by Sebastian Bergmann and contributors.
+
+..                                                                  2 / 2 (100%)
+
+Time: 00:00.003, Memory: 24.00 MB
+
+OK (2 tests, 4 assertions)
+
+user@WINDOWS-BBG8U84 c:\xampp
+#
