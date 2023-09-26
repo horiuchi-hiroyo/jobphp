@@ -1,3 +1,5 @@
+cd 対象フォルダ
+
 git add --all
 git commit -m "XXXX"
 

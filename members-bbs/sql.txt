@@ -1,0 +1,25 @@
+[PHP実践演習]
+
+（テーブル情報）
+URL：http://localhost/phpmyadmin/index.php
+
+データベース名：php_jissen
+	：utf8md4_general_ci
+
+create table user(
+	id int(11) primary key auto_increment,
+	name varchar(255) not null,
+	mail varchar(255) unique not null,
+	password varchar(255) not null
+);
+
+
+
+create table post(
+    user_id int(11) not null,
+     foreign key(user_id)
+     references user(id),
+    title varchar(255) not null,
+    comments varchar(255) not null,
+    posted_at timestamp not null DEFAULT current_timestamp()
+);

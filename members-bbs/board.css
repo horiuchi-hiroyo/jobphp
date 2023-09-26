@@ -1,0 +1,166 @@
+/* 全体の書体・フォントサイズ */
+body{
+    font-family:'Times New Roman', Times, serif;
+}
+
+.logoImg{
+    width: 20%;
+    height:20%;
+}
+
+.confirm{
+    display: flex;
+    justify-content: space-between;
+}
+
+.login_info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login_info .button1{
+    margin-left: 20px;
+    border-radius:10px;
+    background-color:red;
+    color:white;
+    border: none;
+}
+
+/* ヘッダー メニュー（参考：CSS：L　-P6） */
+header{
+    width:100%;
+    height:40px;
+    background-color:black;
+    color:silver;
+}
+
+/*
+/   Flexbox　display:flex;
+/           justify-content:space-between;
+/   ヘッダー：メニュー
+/   body内：main（画面左右分割）
+/       float/clear     ←　解除
+ */
+header ul,main{
+    display:flex;
+    justify-content:space-between;
+}
+
+header ul li{
+    list-style:none;
+    line-height:40px;
+    padding-left:50px;
+    padding-right:50px;
+    font-size:18px;
+}
+
+/* main 左（mainVisual） */
+.mainVisual{
+    width:70%;
+}
+
+h1{
+    padding-left:5px;
+    border-bottom:1px solid;
+    border-left:5px solid;
+}
+
+.io_form{
+    width:90%;
+    padding:0 20px;
+    border:3px #ebebeb solid;
+    border-radius:10px;
+}
+
+.input_form{
+    background: linear-gradient(to top, rgba(180, 217, 175, 0.7) 0%, rgba(118, 147, 150, 0.7) 100%),url("img/office.jpg");
+    background-size:  cover;
+}
+
+.output_form{
+    margin-top: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background: linear-gradient(to top, rgba(238, 203, 157, 0.7) 0%, rgba(220, 153, 184, 0.7) 100%),url("img/office.jpg");
+    background-size:  cover;
+}
+
+.form_title{
+    border-left: 3px solid red;
+    padding-left: 5px;
+}
+
+.msg{
+    display: flex;
+}
+
+.err_message{
+    margin:10px 0 0 5px;
+    font-size:11px;
+    color:red;
+}
+
+.item{
+    width:60%;
+    display:flex;
+    flex-direction:column;
+    margin-bottom: 20px;
+}
+
+.text,textarea{
+    border:1px solid #dfdfdf;
+    color:#999;
+    background:#fff;
+}
+
+.submit{
+    padding:4px 10px;
+    color:white;
+    background:gray;
+    border-radius:5px;
+    border:none;
+    width:150px;
+}
+
+.display_title{
+    font-weight: bold;
+    font-size: 20px;
+    border-bottom: 1px solid grey;
+}
+
+.display_comments{
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.display_name, .display_time{
+    font-size: 14px;
+}
+
+/* main 右（maininfo） */
+.maininfo{
+    width:25%;
+}
+
+h3{
+    margin-top:40px;
+    border-bottom:2px dotted;
+}
+
+.maininfo ul li{
+    margin-top:10px;
+    list-style:none;
+    margin-left:-20px;
+}
+
+/* フッター */
+footer{
+    width:100%;
+    height:40px;
+    background-color:black;
+    color:silver;
+    text-align:center;
+    line-height:40px;
+    font-size:18px;
+}
